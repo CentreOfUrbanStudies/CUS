@@ -1,0 +1,81 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page6175828.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^cus$ page6175828.html [NC]
+RewriteRule ^cus/$ page6175828.html [NC]
+
+RewriteRule ^en$ page11208690.html [NC]
+RewriteRule ^en/$ page11208690.html [NC]
+
+RewriteRule ^history$ page12604736.html [NC]
+RewriteRule ^history/$ page12604736.html [NC]
+
+RewriteRule ^projects$ page12669854.html [NC]
+RewriteRule ^projects/$ page12669854.html [NC]
+
+RewriteRule ^footer$ page12677083.html [NC]
+RewriteRule ^footer/$ page12677083.html [NC]
+
+RewriteRule ^contacts$ page12740503.html [NC]
+RewriteRule ^contacts/$ page12740503.html [NC]
+
+RewriteRule ^publications$ page12741651.html [NC]
+RewriteRule ^publications/$ page12741651.html [NC]
+
+RewriteRule ^newlifeinoldwalls$ page16080693.html [NC]
+RewriteRule ^newlifeinoldwalls/$ page16080693.html [NC]
+
+RewriteRule ^header$ page16081044.html [NC]
+RewriteRule ^header/$ page16081044.html [NC]
+
+RewriteRule ^publicspaces$ page16087323.html [NC]
+RewriteRule ^publicspaces/$ page16087323.html [NC]
+
+RewriteRule ^urbanismampfeminism$ page16087590.html [NC]
+RewriteRule ^urbanismampfeminism/$ page16087590.html [NC]
+
+RewriteRule ^mastersprogram$ page16090770.html [NC]
+RewriteRule ^mastersprogram/$ page16090770.html [NC]
+
+RewriteRule ^covid-19$ page16419690.html [NC]
+RewriteRule ^covid-19/$ page16419690.html [NC]
+
+RewriteRule ^main2$ page16617866.html [NC]
+RewriteRule ^main2/$ page16617866.html [NC]
+
+RewriteRule ^general-view$ page17357427.html [NC]
+RewriteRule ^general-view/$ page17357427.html [NC]
+
+RewriteRule ^chokolivka$ page17484345.html [NC]
+RewriteRule ^chokolivka/$ page17484345.html [NC]
+
+RewriteRule ^yak-mista-pamyataut$ page17951641.html [NC]
+RewriteRule ^yak-mista-pamyataut/$ page17951641.html [NC]
+
+RewriteRule ^howthecitiesremember$ page17952410.html [NC]
+RewriteRule ^howthecitiesremember/$ page17952410.html [NC]
+
+RewriteRule ^research$ page17952859.html [NC]
+RewriteRule ^research/$ page17952859.html [NC]
+
+RewriteRule ^articles$ page17952898.html [NC]
+RewriteRule ^articles/$ page17952898.html [NC]
+
+RewriteRule ^urban-studies$ page17952930.html [NC]
+RewriteRule ^urban-studies/$ page17952930.html [NC]
+
+RewriteRule ^masterprogram-ukr$ page19122101.html [NC]
+RewriteRule ^masterprogram-ukr/$ page19122101.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3935-3332-4731-b436-393131336333/favicon.ico [R=302,L]
+

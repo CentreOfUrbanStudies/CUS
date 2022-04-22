@@ -1,0 +1,19 @@
+User-Agent: *
+Disallow: /page12677083.html
+Disallow: /footer
+Disallow: /page16081044.html
+Disallow: /header
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+
+
+Sitemap: https://cus.org.ua/sitemap.xml
+Host: https://cus.org.ua
