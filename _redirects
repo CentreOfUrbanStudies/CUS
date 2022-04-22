@@ -1,0 +1,72 @@
+/(.*) /https://%{HTTP_HOST}/$1
+
+
+/(.*) /robots_%{HTTP_HOST}.txt
+/cus /page6175828.html 
+/cus/ /page6175828.html 
+
+/en /page11208690.html 
+/en/ /page11208690.html 
+
+/history /page12604736.html 
+/history/ /page12604736.html 
+
+/projects /page12669854.html 
+/projects/ /page12669854.html 
+
+/footer /page12677083.html 
+/footer/ /page12677083.html 
+
+/contacts /page12740503.html 
+/contacts/ /page12740503.html 
+
+/publications /page12741651.html 
+/publications/ /page12741651.html 
+
+/newlifeinoldwalls /page16080693.html 
+/newlifeinoldwalls/ /page16080693.html 
+
+/header /page16081044.html 
+/header/ /page16081044.html 
+
+/publicspaces /page16087323.html 
+/publicspaces/ /page16087323.html 
+
+/urbanismampfeminism /page16087590.html 
+/urbanismampfeminism/ /page16087590.html 
+
+/mastersprogram /page16090770.html 
+/mastersprogram/ /page16090770.html 
+
+/covid-19 /page16419690.html 
+/covid-19/ /page16419690.html 
+
+/main2 /page16617866.html 
+/main2/ /page16617866.html 
+
+/general-view /page17357427.html 
+/general-view/ /page17357427.html 
+
+/chokolivka /page17484345.html 
+/chokolivka/ /page17484345.html 
+
+/yak-mista-pamyataut /page17951641.html 
+/yak-mista-pamyataut/ /page17951641.html 
+
+/howthecitiesremember /page17952410.html 
+/howthecitiesremember/ /page17952410.html 
+
+/research /page17952859.html 
+/research/ /page17952859.html 
+
+/articles /page17952898.html 
+/articles/ /page17952898.html 
+
+/urban-studies /page17952930.html 
+/urban-studies/ /page17952930.html 
+
+/masterprogram-ukr /page19122101.html 
+/masterprogram-ukr/ /page19122101.html 
+
+/favicon.ico /https://static.tildacdn.com/tild3935-3332-4731-b436-393131336333/favicon.ico
+
